@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'K';
+  src: url('K.eot');
+  src: url('K.eot?#iefix') format('embedded-opentype'),
+       url('K.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '';
+  src: ;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'persian-kordi';
+  src: url('persian-kordi.svg#persian-kordi') format('svg'),
+       url('persian-kordi.ttf') format('truetype'),
+       url('persian-kordi.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
