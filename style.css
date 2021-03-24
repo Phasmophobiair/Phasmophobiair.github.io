@@ -1,10 +1,13 @@
 
-
+	
+#adv{display: none;}
+	
 body {
 	margin: 0;
 	padding: 0;
 	background: #000000 url(images/img05.jpg) repeat;
-	font-family: 'Abel', sans-serif;
+		
+font-family: 'Abel', sans-serif;
 	font-size: 18px;
 	color: #5B5B5B;
 }
@@ -577,4 +580,10 @@ ul.style1 .first {
 	color: #FFFFFF;
 	text-align: center;
 	text-decoration: none;
+}
+@media screen and (max-width: 980px){	
+	#bod{ display: none;background-color: #000000 ;}
+	
+	#adv{  display: block;color:white;text-align:center;padding:15px;}
+	#warn{font-size:23px;font-family:persian-kordi;display: block;margin-top:120px;color:white;}
 }
